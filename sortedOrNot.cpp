@@ -7,8 +7,7 @@ int main(){
     cout<<"enter the size of array"<<endl;
     cin>>n;
     vector<int>a(n);
-    int largest=0;
-    int slargest=0;
+    
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
